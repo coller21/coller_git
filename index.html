@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <header class="header-section">
-    <div class="container header-container">
+  <header class="container header-section">
+    <div class="header-container">
       <div class="header-container__logo">
         <img src="img/logo.png" alt="Lagoona - сеть отелей">
       </div>
@@ -22,36 +22,46 @@
         Личный кабинет
       </a>
     </div>
-  </header>
-  <div class="container nav-container">
-    <nav class="nav-container__topnav">
+    <nav class="nav-container nav-container__topnav">
       <ul class="nav-container__navlist">
         <li class="nav-container__navitems">
-          О нас
+          <a href="#" class="nav-container__links">
+            О нас
+          </a>
         </li>
         <li class="nav-container__navitems">
-          Услуги
+          <a href="#" class="nav-container__links">
+            Услуги
+          </a>
         </li>
         <li class="nav-container__navitems">
-          Преимущества
+          <a href="#" class="nav-container__links">
+            Преимущества
+          </a>
         </li>
         <li class="nav-container__navitems">
-          Размещение
+          <a href="#" class="nav-container__links">
+            Размещение
+          </a>
         </li>
         <li class="nav-container__navitems">
-          Блог
+          <a href="#" class="nav-container__links">
+            Блог
+          </a>
         </li>
         <li class="nav-container__navitems">
-          Контакты
+          <a href="#" class="nav-container__links">
+            Контакты
+          </a>
         </li>
       </ul>
+      <form class="search">
+        <input type="search" placeholder="Поиск" aria-label="Найти">
+        <button class="search-button">
+        </button>
+      </form>
     </nav>
-    <form class="search">
-      <input type="search" placeholder="Поиск">
-      <button class="search-button">
-      </button>
-    </form>
-  </div>
+  </header>
   <main>
     <section class="first-section">
       <div class="container first-section__container">
@@ -236,8 +246,8 @@
             style="background: #fff url(img/hotels/hotel1.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price"> 4 698 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">
+                    4 698 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona española</span>
@@ -260,8 +270,8 @@
             style="background: #fff url(img/hotels/hotel2.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">5 148 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">5
+                    148 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona son típicas</span>
@@ -284,8 +294,8 @@
             style="background: #fff url(img/hotels/hotel3.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 254 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    254 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona de la guerra</span>
@@ -308,8 +318,8 @@
             style="background: #fff url(img/hotels/hotel4.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 320 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    320 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona mentira piadosa</span>
@@ -332,8 +342,8 @@
             style="background: #fff url(img/hotels/hotel5.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 457 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    457 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona empujar la creatividad</span>
@@ -356,8 +366,8 @@
             style="background: #fff url(img/hotels/hotel6.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 490 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    490 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona el retorno</span>
@@ -380,8 +390,8 @@
             style="background: #fff url(img/hotels/hotel7.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 505 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    505 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona enfermo terminó</span>
@@ -404,8 +414,8 @@
             style="background: #fff url(img/hotels/hotel8.jpg) top left no-repeat;">
             <div class="carditem-text__wrapper">
               <ul>
-                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6 824 р</strong> <span
-                    class="carditems-text">/ ночь</span>
+                <li class="card-list__carditems"><span class="carditems-one">от </span><strong class="carditems-price">6
+                    824 р</strong> <span class="carditems-text">/ ночь</span>
                 </li>
                 <li class="card-list__carditems">
                   <span class="carditems-name">Lagoona suerte siguió siempre</span>
